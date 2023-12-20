@@ -26,7 +26,7 @@ validations:
         description: Also tell us, what did you expert to happen?
         placeholder: Tell us what you see!
         value: "A bug happened!"
-    validation:
+    validations:
         required: true
     - type: dropdown
         id: version
@@ -37,7 +37,7 @@ validations:
             - 1.0.2 (Default)
             - 1.0.3 (Edge)
             default: 0
-        validation:
+        validations:
             required: true
     - type: dropdown
         id: browsers
